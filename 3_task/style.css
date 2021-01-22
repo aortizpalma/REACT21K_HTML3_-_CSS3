@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("https://source.unsplash.com/yDAT2YMc85Q/1600x900") center
+    center/cover no-repeat fixed;
+  color: #333;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  float: left;
+}
+section {
+  clear: both;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  padding: 50px;
+  margin: 50px;
+  background: green;
+}
+
+a {
+  color: lavender;
+  text-decoration: none;
+  background: green;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background: #333;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+
+  margin: 20px;
+}
+
+.box1 {
+  background-color: green;
+  border: 10px solid yellow;
+  padding: 100px 50px;
+}
+
+.box2 {
+  background-color: pink;
+  border: green 10px dashed;
+}
+.box3 {
+  background-color: yellow;
+  border: dashed 4px blue;
+}
+.box4 {
+  background-color: purple;
+  border: green groove 20px;
+  border-radius: 20px;
+}
+.box5 {
+  background-color: purple;
+  border: green groove 20px;
+  border-radius: 50%;
+}
