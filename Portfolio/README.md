@@ -51,3 +51,24 @@
 - CSS
 
   - Form styling
+
+## Portfolio 4:
+
+- HTML
+
+  - Metadata
+  - Divs in main area to sections
+  - Three cards for past section
+    - image
+    - third level heading
+    - read more link
+
+- CSS
+
+  - absolute units to relative units where it makes sense (px to rem and vh/vw)
+  - Hero-banner styling (center and middle)
+  - Display:flex in header
+  - Past cards stying
+  - Make support to iPhone SE
+  - Make support to iPad
+  - Clean code!
