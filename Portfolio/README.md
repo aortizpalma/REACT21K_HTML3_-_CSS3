@@ -38,3 +38,16 @@
   - Paddings and margins
   - Widths and Heights
   - Float
+
+## Portfolio 3:
+
+- HTML
+
+  - Contact form in footer
+  - Contact me link to menu (scrolls to bottom to footer
+  - Inputs for name, email and textarea to message
+  - Submit button
+
+- CSS
+
+  - Form styling
