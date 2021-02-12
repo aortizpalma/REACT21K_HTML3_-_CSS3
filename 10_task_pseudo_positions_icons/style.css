@@ -52,8 +52,8 @@ li:nth-child(2n + 10) {
 
 #hero-banner {
   height: 50vh;
-  background: url("https://source.unsplash.com/1600x900/?laptop") no-repeat
-    fixed center center/cover;
+  background: url("https://source.unsplash.com/1600x900/?sky") no-repeat fixed
+    center center/cover;
   display: flex;
   justify-content: center;
   align-items: center;
