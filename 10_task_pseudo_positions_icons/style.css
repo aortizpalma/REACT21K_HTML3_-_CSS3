@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.2rem;
+}
+
+header {
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+}
+
+a:first-child {
+  color: yellow;
+  text-decoration: none;
+}
+
+a:focus {
+  color: green;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+button {
+  cursor: pointer;
+}
+li {
+  background: green;
+}
+
+li:nth-child(2n + 10) {
+  background: red;
+}
+
+#hero-banner {
+  height: 50vh;
+  background: url("https://source.unsplash.com/1600x900/?laptop") no-repeat
+    fixed center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#hero-banner::after {
+  background-color: rgba(255, 0, 0, 0.289);
+  height: 10%;
+  width: 10%;
+  position: absolute;
+}
+#hero-banner h3 {
+  z-index: 1;
+  color: white;
+}
+#hero-banner h3::first-letter {
+  z-index: 1;
+  color: yellow;
+  font-size: 5rem;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background: green;
+  position: relative;
+  margin: 1rem;
+}
