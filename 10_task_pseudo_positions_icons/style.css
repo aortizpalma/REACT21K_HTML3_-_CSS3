@@ -60,9 +60,10 @@ li:nth-child(2n + 10) {
   position: relative;
 }
 #hero-banner::after {
+  content: "";
   background-color: rgba(255, 0, 0, 0.289);
-  height: 10%;
-  width: 10%;
+  height: 100%;
+  width: 100%;
   position: absolute;
 }
 #hero-banner h3 {
