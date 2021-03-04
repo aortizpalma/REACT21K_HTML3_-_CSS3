@@ -72,3 +72,22 @@
   - Make support to iPhone SE
   - Make support to iPad
   - Clean code!
+
+## Portfolio 5:
+
+- HTML
+
+  - Changed past, present and future to work, experience and skills
+  - In future section added skills with icons
+  - Icon
+  - Progress (how good you are)
+  - Back to top button
+
+- CSS
+
+  - Header position fixed and bg color after scroll
+  - Use of CSS pseudo classes and elements (link hover)
+  - Hero-banner ::before color overlay
+  - skills :nth-child() and icons
+  - Styling of skills
+  - Make sure mobile version is still working fine
